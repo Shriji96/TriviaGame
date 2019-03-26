@@ -1,28 +1,21 @@
+//  i want to create a 30 second timer.
+// if they submit before the time is over, i want it to display results.
+//if time is up, i want it to say time's up.
+// any unanswered are marked as wrong.
+//display results
+// var x = setInterval(function() {
+// var seconds = Math.floor((t % (1000 * 60))/ 1000);
+// document.getElementById("display").text = seconds + "s ";
+// if (t < 0) {
+//   clearInterval(x)
+//   document.getElementById('display').text = "Time's up!";
+// }
+// })
 
-var countDownTime = new Time ("00:30").getTime();
-
-var display = setInterval(function() {
-
-}
-)
 
 
 
-//  Takes the current time in seconds and convert it to minutes and seconds (mm:ss).
-var minutes = Math.floor(t / 60);
-  var seconds = t - (minutes * 60);
 
-  if (seconds < 10) {
-    seconds = "0" + seconds;
-  }
 
-  if (minutes === 0) {
-    minutes = "00";
-  }
 
-  else if (minutes < 10) {
-    minutes = "0" + minutes;
-  }
-
-  return minutes + ":" + seconds;
 
